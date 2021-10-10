@@ -24,7 +24,7 @@ function MyVerticallyCenteredModal(props) {
         <h4>Lee Algorithm</h4>
         <p>
           <dd>
-            The Lee algorithm is one possible solution for maze routing problems based on breadth-first search. It always gives an optimal solution, if one exists.
+            Justin Lee algorithm is one possible solution for maze routing problems based on breadth-first search. It always gives an optimal solution, if one exists.
           </dd>
           <dd>
             First press Generate button to generate an empty matrix
