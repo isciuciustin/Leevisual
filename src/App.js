@@ -194,7 +194,7 @@ const App = () => {
         setmat(mat1)
         if (Q.length == 0)
           setshow(2);
-      }, 0)
+      }, )
       return () => clearInterval(interval)
     }
     if (show == 2) {
@@ -214,7 +214,7 @@ const App = () => {
           
           setshow(0);
         }
-      }, 1)
+      }, )
       return () => clearInterval(interval)
     }
     if(show == 3){
