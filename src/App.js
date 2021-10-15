@@ -24,7 +24,7 @@ function MyVerticallyCenteredModal(props) {
         <h4>Lee Algorithm</h4>
         <p>
           <dd>
-            Justin Lee algorithm is one possible solution for maze routing problems based on breadth-first search. It always gives an optimal solution, if one exists.
+            The Lee algorithm is one possible solution for maze routing problems based on breadth-first search. It always gives an optimal solution, if one exists.
           </dd>
           <dd>
             First press Generate button to generate an empty matrix
@@ -235,7 +235,7 @@ const App = () => {
             <Button variant="outline-dark" onClick={() => setmodal(true)}>Hints</Button>
           </Nav>
           <Form inline>
-            <Button variant="outline-dark" className="mr-5" onClick={Generate}>Generate</Button>
+            <Button disabled = {show != 0} variant="outline-dark" className="mr-5" onClick={Generate}>Generate</Button>
             <Button variant="success" onClick={() => { settip(1) }} >S</Button>
             <Button variant="danger" onClick={() => { settip(2) }}>D </Button>
             <Button variant="primary" onClick={() => { settip(3) }} className="mr-5">G</Button>
